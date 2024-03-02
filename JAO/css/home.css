@@ -1,0 +1,99 @@
+
+/* Pantallas grandes */
+
+@media screen and (max-width: 1400px){
+    .conteiner-home{
+        width: 97vw;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+          
+    
+    }
+    .conteiner-banner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .conteiner-home img{
+        width: 100%;
+        height: 100%;
+    }
+    .conteiner-home h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: clamp(3.125rem, -1.042rem + 19.048vw, 15.625rem);
+        color: white;
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: 0;
+        vertical-align: inherit;
+    
+    }
+    .conteiner-home h3{
+        font-size:clamp(0.5rem, -0.167rem + 3.048vw, 2.5rem) ;
+        color: white;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        white-space: nowrap;
+        margin: 0;
+        vertical-align: inherit;
+        
+    }
+  
+}
+
+/* Tabletas 
+
+@media (max-width: 768px) {
+    .conteiner-home h1{
+        font-size: 17vw;
+        top: 40%;
+      
+        
+    
+    }
+    .conteiner-home h3{
+        font-size: 2.8vw;
+        top: 55%;
+        
+        
+    }
+  
+}
+
+/* Celulares 
+
+@media (max-width: 450px) {
+  conteiner-home h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15vw;
+        color: white;
+        position: absolute;
+        top: calc(50% -10px);
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: 0;
+        
+    
+    }
+    .conteiner-home h3{
+        font-size: 2.8vw;
+        color: white;
+        position: fixed;
+        top: calc(50%  -1200px);
+        left: 50%;
+        transform: translate(-50%,-50%);
+        white-space: nowrap;
+        margin: 0;
+        
+    }
+}*/
